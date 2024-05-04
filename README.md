@@ -26,7 +26,7 @@ Valid System Identifiers:
 1. `/Binaries/linux_x86-64/app.x86_64`
 1. `/Binaries/windows_x86-64/app.exe`
 
-### /Assets
+### /Logos
 
 Contains logos for displaying in operating system menus/package icon. There are two valid types of logos:
 
