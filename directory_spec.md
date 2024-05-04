@@ -22,20 +22,37 @@ Valid System Identifiers:
 1. `/Binaries/linux_x86-64/app.x86_64`
 1. `/Binaries/windows_x86-64/app.exe`
 
-## /Logos
+## /Assets
 
-Contains logos for displaying in operating system menus/package icon. There are two valid types of logos:
+Contains logos and other assets for displaying in operating system menus and package icon.
+
+### Logos
+
+There are two valid file types for logos:
 
 1. PNG (Portable Network Graphics)
 1. SVG (Scalable Vector Graphics)
 
-All logos should have a 1:1 aspect ratio (square) and be exported and renamed by powers of 16x16
+All logos should have a 1:1 aspect ratio (square). Filenames should follow the format below, and sizes should be named by powers of 16
 
-### Example
+For PNG files
 
----
+- `logo_{size}.png`
+
+For SVG files
+
+- `logo.svg`
+
+#### Example Sizes
 
 - 1x = 16x16
 - 2x = 32x32
 - 3x = 48x48
   [...] and so on
+
+#### Example structure for application logos
+
+1. `/Logos/logo.svg`
+1. `/Logos/logo_x2.png`
+1. `/Logos/logo_x3.png`
+1. `/Logos/logo_x4.png`
