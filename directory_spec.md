@@ -1,10 +1,12 @@
+[<- Back](README.md)
+
 # Directory Structure
 
 All Directories listed in here along with it's usage is **not optional** and it must follow the specification strictly to avoid issues with implementations
 
 ## /Binaries
 
-Contains directories of binaries for every supported operating system and CPU architecture, organized in a os_architecture format called System Identifiers
+Contains directories of binaries for every supported operating system and CPU architecture, organized in an `os_architecture` format called System Identifier
 
 Valid System Identifiers:
 
@@ -22,11 +24,9 @@ Valid System Identifiers:
 1. `/Binaries/linux_x86-64/app.x86_64`
 1. `/Binaries/windows_x86-64/app.exe`
 
-## /Assets
+## /Logos
 
-Contains logos and other assets for displaying in operating system menus and package icon.
-
-### Logos
+Contains logos for displaying in operating system menus and package icon in file browsers
 
 There are two valid file types for logos:
 
@@ -50,9 +50,15 @@ For SVG files
 - 3x = 48x48
   [...] and so on
 
-#### Example structure for application logos
+### Example structure for application logos
 
 1. `/Logos/logo.svg`
 1. `/Logos/logo_x2.png`
 1. `/Logos/logo_x3.png`
 1. `/Logos/logo_x4.png`
+
+## /ApplicationData
+
+Static application resources/data. **When running a binary, the working path should be set to this folder**
+
+The contents of this folder is completely dependent on the app vendor, and it's not standardized in any way
