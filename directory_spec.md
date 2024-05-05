@@ -12,10 +12,10 @@ Standard System Identifiers:
 
 | Operating System | CPU Architecture | System Identifier |
 | ---------------- | ---------------- | ----------------- |
-| Linux            | x86-64           | linux_x86_64      |
+| Linux            | x64              | linux_x64         |
 | Linux            | rv64             | linux_rv64        |
 | Linux            | arm64            | linux_arm64       |
-| Windows          | x86-64           | windows_x86-64    |
+| Windows          | x64              | windows_x64       |
 | Windows          | x86              | windows_x86       |
 | Windows          | arm64            | windows_arm64     |
 
@@ -37,7 +37,7 @@ All logos should have a 1:1 aspect ratio (square). Filenames should follow the f
 
 For PNG files
 
-- `logo_{size}.png`
+- `{size}.png`
 
 For SVG files
 
@@ -53,9 +53,9 @@ For SVG files
 ### Example structure for application logos
 
 1. `/Logos/logo.svg`
-1. `/Logos/logo_x2.png`
-1. `/Logos/logo_x3.png`
-1. `/Logos/logo_x4.png`
+1. `/Logos/x2.png`
+1. `/Logos/x3.png`
+1. `/Logos/x4.png`
 
 ## /ApplicationData
 
