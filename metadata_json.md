@@ -1,6 +1,6 @@
-[< Back](README.md)
-
 # Metadata.json
+
+[< Back](README.md)
 
 This json document should contain metadata about the application inside the Universal Application Package, The json schema should be as below:
 

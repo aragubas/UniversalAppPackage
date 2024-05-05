@@ -1,6 +1,6 @@
-[<- Back](README.md)
-
 # Directory Structure
+
+[<- Back](README.md)
 
 All Directories listed in here along with it's usage is **not optional and all files inside a Universal Application Package should not be modified at runtime**, and it must follow the specification strictly to avoid issues with implementations
 
@@ -19,7 +19,7 @@ Standard System Identifiers:
 | Windows          | x86              | windows_x86       |
 | Windows          | arm64            | windows_arm64     |
 
-#### Example structure for an application that supports Windows and Linux for x86-64
+### Example structure for an application that supports Windows and Linux for x86-64
 
 1. `/Binaries/linux_x86-64/app.x86_64`
 1. `/Binaries/windows_x86-64/app.exe`
@@ -43,7 +43,7 @@ For SVG files
 
 - `logo.svg`
 
-#### Example Sizes
+### Example Sizes
 
 - 1x = 16x16
 - 2x = 32x32
