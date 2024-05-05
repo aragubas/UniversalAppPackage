@@ -2,13 +2,13 @@
 
 # Directory Structure
 
-All Directories listed in here along with it's usage is **not optional** and it must follow the specification strictly to avoid issues with implementations
+All Directories listed in here along with it's usage is **not optional and all files inside a Universal Application Package should not be modified at runtime**, and it must follow the specification strictly to avoid issues with implementations
 
 ## /Binaries
 
-Contains directories of binaries for every supported operating system and CPU architecture, organized in an `os_architecture` format called System Identifier
+Contains binaries for every supported operating system and CPU architecture, organized in a `os_architecture` format called System Identifier
 
-Valid System Identifiers:
+Standard System Identifiers:
 
 | Operating System | CPU Architecture | System Identifier |
 | ---------------- | ---------------- | ----------------- |
@@ -59,6 +59,6 @@ For SVG files
 
 ## /ApplicationData
 
-Static application resources/data. **When running a binary, the working path should be set to this folder**
+**Static** application resources/data. **When running a binary, the application working path should be set to this folder**
 
 The contents of this folder is completely dependent on the app vendor and there's no defined structure. **Files inside this folder should NOT be modified by the app at runtime, this folder should be read only**
