@@ -13,3 +13,4 @@ The fundamentals of a Universal App Package are two json files and the standard 
 The specification is organized in topics as listed below
 
 - [Directories and System Identifiers](directory_spec.md)
+- [Metadata.json](metadata_json.md)
