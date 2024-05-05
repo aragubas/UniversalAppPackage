@@ -61,4 +61,4 @@ For SVG files
 
 Static application resources/data. **When running a binary, the working path should be set to this folder**
 
-The contents of this folder is completely dependent on the app vendor, and it's not standardized in any way
+The contents of this folder is completely dependent on the app vendor and there's no defined structure. **Files inside this folder should NOT be modified by the app at runtime, this folder should be read only**
