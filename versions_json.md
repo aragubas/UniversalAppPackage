@@ -37,3 +37,17 @@ This json document should contain a listing of every file inside the Universal A
   }
 }
 ```
+
+At the root of the document, the "Binaries", "ApplicationData" and "Logos" represents every folder inside the Universal Application Package, items inside each folder should contain paths relative to each folder's parent object
+
+## Example
+
+```json
+{
+  "Logos": {
+    "logo.svg": "1.0.0"
+  }
+}
+```
+
+The `logo.svg` file inside `Logos` folder gets represented as a `Logos` object with another object inside of it for the `logo.svg` file along with it's version
