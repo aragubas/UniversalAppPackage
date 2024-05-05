@@ -8,6 +8,6 @@ for a folder to be considered a Universal App Package, it must conform to the sp
 
 # Specification
 
-The fundamentals of a Universal App Package are two json files and the directory structure inside a universal app package.
+The fundamentals of a Universal App Package are two json files and the standard directory structure inside a folder
 
 [Specification for Directories](directory_spec.md)
