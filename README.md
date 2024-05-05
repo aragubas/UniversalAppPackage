@@ -14,3 +14,4 @@ The specification is organized in topics as listed below
 
 - [Directories and System Identifiers](directory_spec.md)
 - [Metadata.json](metadata_json.md)
+- [Versions.json](versions_json.md)
